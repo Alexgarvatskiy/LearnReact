@@ -1,6 +1,6 @@
 import './employers-list-item.css';
 
-const EmployersListItem = ({name, salary, increase}) => {
+const EmployersListItem = ({name, salary, increase, id}) => {
 
     let classNemes =  "list-group-item d-flex justify-content-beetwen";
     if (increase) {
